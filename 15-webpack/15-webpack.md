@@ -117,7 +117,7 @@ console.log(mul(10,10))
 
 > 注意：webpack3使用`webpack ./src/main.js ./dist/bundle.js`
 >
-> webpack4，webpack打包在01-webpack的起步目录下打开终端 `webpack ./scr/main.js -o ./dist/bundle.js`
+> webpack4，webpack打包在01-webpack的起步目录下打开终端 `webpack ./scr/main.js -o ./dist/bundle.js`  //告诉web进行打包,将main.js打包到/dist/bundle.js中（webpack会处理main.js中的依赖处理）
 
 我全局安装的是webpack@3.6.0，所以在根路径执行
 
